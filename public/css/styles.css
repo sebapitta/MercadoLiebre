@@ -124,6 +124,8 @@ main section article{
     
     background-color: #fff;    
     margin: 10px 10px;
+    transition: all 450ms;
+   
 }
 
 main section article i, .discount{
@@ -150,6 +152,8 @@ main section article i {
     position: absolute ;
     right: 20px ;
     top:-15px ;
+    transition: all 450ms;
+    
     }
 .main-article p{
         margin: 0 10px;
@@ -199,11 +203,25 @@ article .fa-solid{
     margin-right: 22px;
 
 }
+.button-submit2{
+    margin-top: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #39b54a;;
+    font-size: 20px;
+    padding: 8px;
+    margin-right: 22px;
+
+}
 .button-submit:hover {
     background-color: #0022AA;   
  }
+ .button-submit2:hover {
+    background-color: #ee0f0f;   
+ }
 .control{
-    width: 100%;
+    width: 30%;
     padding: 8px 8px;
     border: none;
     border-radius: 5px;
